@@ -1,0 +1,85 @@
+html,body{
+	padding:0;
+	margin:0;
+	height:440px;
+	font-family:  sans-serif;
+}
+
+body{
+	background: url("../img/book.jpg");
+    background-position:center center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	opacity:0.8;
+	color: rgba(123, 67, 67, 0.78);
+	
+}
+
+.header{
+	margin: 50px 0 0 0;
+}
+.header .container{
+	position:relative;
+	font-size:50px;
+}
+.header .container span{
+	position:absolute;
+}
+ .container {
+ 	text-align: center ;
+ 	      
+ }
+.main{
+	margin-top:20px;
+}
+
+
+.main .container{
+	color:black;
+	font-size:20px;
+}
+
+th{
+	border: solid;
+}
+
+.table{
+	position: relative;
+	border-collapse: collapse;
+	border:  solid ;
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+ .btn{
+	 position: absolute;
+	 border: solid;
+	 margin-left: 16%;
+	 margin-top:10px;
+  font-size:25px;
+	text-decoration: none;
+ 	color: black;
+ 	transition:box-shadow 0.5s;
+ 	border-radius: 5px;
+ }
+ 
+ .btn:hover{
+ 	color: white;
+ 	box-shadow: 0px 1px 6px black;
+ 	background-color: #404040 ;
+ 	border-color: white;
+ }
+ 
+.link{
+	 
+	text-decoration: none;
+	color: white;
+	font-style:oblique;
+	transition:box-shadow 0.5s;
+}
+.link:hover{
+ 	color: rgba(123, 67, 67, 0.78);
+ 	box-shadow: 0px 1px 6px black;
+ 	
+ 	border-color: white;
+ }

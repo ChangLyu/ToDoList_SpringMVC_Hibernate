@@ -36,9 +36,11 @@ public class ToDo {
 			return false;
 		return true;
 	}
-	public ToDo(int id, String user, String description, Date date, boolean checked) {
+	  public ToDo() {
+	        super();
+	    }
+	public ToDo( String user, String description, Date date, boolean checked) {
 		super();
-		this.id = id;
 		this.user = user;
 		this.description = description;
 		this.date = date;
